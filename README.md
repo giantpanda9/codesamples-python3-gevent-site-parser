@@ -51,4 +51,9 @@ To demonstrate ability to work with Gevent and multithreading pn Python 3.x
 7. options in points 4,5,6 can be combined as follows: python run_parser.py -r -v -s so the script will be able to both display the results and store them
 8. You also can use a BASH script included ./menu.sh to see some fucntions organized in a menu
 # Task Description
+Write a webcrawler using python that crawls a single domain. For example,
+given the URL 'news.ycombinator.com', it should crawl the main page and the
+comments, but not any external links. After finishing crawling the program
+it should print the links between pages.
 
+The goal is to make the crawler work as fast as possible by using `gevent`.
