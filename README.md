@@ -10,7 +10,7 @@ Gevent site parser
 7. Normal crawling for links is - according to the task description - is implemented using gevent module - and can display results on screen(all of them - huge amount) or to store them into json output
 # Limitations
 1. Single thread config - can be fixed in the future require some time to re-implement
-2. Proxy module is used, but for better results Tor module should be used as this implementation provides better anonymity and random IPs for each request
+2. Proxy module is used, but for better results Tor module should be used as this implementation provides better anonymity and random IPs for each request. Not implemented because it would include additional modules to deployment for at least sock5 support and Tor itself support and would require to restart Tor server each time on local machine where the script is going to run
 3. Requests with Sessions could also be used to avoid the issue with limiting concurrenct connections and to use ability to log into news.ycombinator.com, which also may enable us to use more concurrent connections to the site in a given time period (registered users may have better access conditions to the news.ycombinator.com site)
 4. Proxies with better connection speed may be used
 5. One (n * n) loop can be re-implemented to threads-style loop, which is currently not part of the task
