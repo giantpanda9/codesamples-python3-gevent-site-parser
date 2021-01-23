@@ -40,7 +40,8 @@ To demonstrate ability to work with Gevent and multithreading pn Python 3.x
 6. pip install requests
 7. pip install configparser
 8. [optional] pip install optparse
-9. Edit the config.ini, if needed, via ./codesamples-python3-gevent-site-parser/config/config.ini
+9. [optiona] edit the config.ini, if needed, via ./codesamples-python3-gevent-site-parser/config/config.ini
+10. [optional] deactivate
 # How to run?:
 1. python run_parser.py -h - will provide help information
 2. python run_parser.py -c - will configure parser in single thread mode
