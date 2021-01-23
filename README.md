@@ -27,5 +27,5 @@ To demonstrate ability to work with Gevent and multithreading pn Python 3.x
 5. python run_parser.py -r -v - view the results on screen (huge list so increase output limits in your Linux shell/PUTTY)
 6. python run_parser.py -r -s - will store the results into ./codesamples-python3-gevent-site-parser/output/ separetelly for each site section
 7. options in points 4,5,6 can be combined as follows: python run_parser.py -r -v -s so the script will be able to both display the results and store them
-8. You also can use a BASH script included ./menu.sh to see some fucntions as part of menu
+8. You also can use a BASH script included ./menu.sh to see some fucntions organized in a menu
 
