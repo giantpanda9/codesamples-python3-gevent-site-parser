@@ -43,13 +43,13 @@ To demonstrate ability to work with Gevent and multithreading pn Python 3.x
 9. [optiona] edit the config.ini, if needed, via ./codesamples-python3-gevent-site-parser/config/config.ini
 10. [optional] deactivate
 # How to run?:
-1. python run_parser.py -h - will provide help information
-2. python run_parser.py -c - will configure parser in single thread mode
-3. python run_parser.py -r - will crawl the site in gevent/multithread mode
+1. python run_crawler.py -h - will provide help information
+2. python run_crawler.py -c - will configure parser in single thread mode
+3. python run_crawler.py -r - will crawl the site in gevent/multithread mode
 4. there also additional options - only running alongside with the with the -r option:
-5. python run_parser.py -r -v - view the results on screen (huge list so increase output limits in your Linux shell/PUTTY)
-6. python run_parser.py -r -s - will store the results into ./codesamples-python3-gevent-site-parser/output/ separetelly for each site section
-7. options in points 4,5,6 can be combined as follows: python run_parser.py -r -v -s so the script will be able to both display the results and store them
+5. python run_crawler.py -r -v - view the results on screen (huge list so increase output limits in your Linux shell/PUTTY)
+6. python run_crawler.py -r -s - will store the results into ./codesamples-python3-gevent-site-parser/output/ separetelly for each site section
+7. options in points 4,5,6 can be combined as follows: python run_crawler.py -r -v -s so the script will be able to both display the results and store them
 8. You also can use a BASH script included ./menu.sh to see some fucntions organized in a menu
 # Task Description
 Write a webcrawler using python that crawls a single domain. For example,
