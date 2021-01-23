@@ -14,10 +14,12 @@ Gevent site parser
 3. Requests with Sessions could also be used to avoid the issue with limiting concurrenct connections and to use ability to log into news.ycombinator.com, which also may enable us to use more concurrent connections to the site in a given time period (registered users may have better access conditions to the news.ycombinator.com site)
 4. Proxies with better connection speed may be used
 5. One (n * n) loop can be re-implemented to threads-style loop, which is currently not part of the task
+6. It is possible to make the Crawler a little more generic and scallable, however, at the moment you it seems possible to add new site sections to the config.ini, but for a single domain mentioned in the global section of the config.ini
 # Possible modifications
 1. Multi-thread'ed config mode - need to invent/find a way to communicate between Gevent Greenlets
 2. (n * n) loop to multi threaded loop
 3. Proxy requests to Tor-styled requests
+4. Enable possibility for the Crawler to be scalable on a terms of how many pages/site it can crawl - all of those should be changed/added in config.ini
 # Please kindly note that modifications were not initially mentioned in the task description (see below) and due to urgency of the interview were not implemented to safe time of development
 # Terms
 1. Pages - part of pagination "More" menu at the bottom of main page and comments page on news.ycombinator.com
