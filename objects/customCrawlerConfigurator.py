@@ -4,11 +4,6 @@ from os.path import dirname, abspath
 from configparser import ConfigParser
 import json
 
-import gevent.monkey
-gevent.monkey.patch_socket()
-import gevent
-from gevent import Greenlet
-
 class configurator:
 	def __init__(self,value):
 			configParser = ConfigParser()
