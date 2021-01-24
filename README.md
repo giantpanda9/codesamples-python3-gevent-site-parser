@@ -35,10 +35,10 @@ To demonstrate ability to work with Gevent and multithreading pn Python 3.x
 1. git clone this project
 2. sudo pip3 install virtualenv
 3. cd codesamples-python3-gevent-site-parser
-4. [optional] pip install gevent
-5. [optional] pip install lxml
-6. [optional] pip install requests
-7. [optional] pip install configparser
+4. pip install gevent
+5. pip install lxml
+6. pip install requests
+7. pip install configparser
 8. [optional] pip install optparse
 9. [optiona] edit the config.ini, if needed, via ./codesamples-python3-gevent-site-parser/config/config.ini
 10. [optional] deactivate
